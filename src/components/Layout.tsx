@@ -26,6 +26,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       <footer className="border-t border-gray-800 mt-20 py-8 text-center text-gray-500 text-sm">
         <p>RepoInsights - GitHub Repository Analytics</p>
+        <div className="mt-2 text-gray-600">
+          <a
+            href="https://github.com/OhadRubin/repo-insights"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400 transition-colors inline-flex items-center gap-1"
+          >
+            Contributions welcome on GitHub
+          </a>
+        </div>
       </footer>
     </div>
   );

@@ -57,6 +57,9 @@ npm run auto-deploy
 
 The app fetches up to 500 commits (list) and 200 commits (detailed file changes) per analysis.
 
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request to the [GitHub Repository](https://github.com/OhadRubin/repo-insights).
+
 ## License
 
 MIT
