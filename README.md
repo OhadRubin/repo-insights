@@ -1,61 +1,53 @@
-# React GitHub Pages Template
+# Gitingest Replica
 
-A template for creating and deploying React applications to GitHub Pages with Tailwind CSS using one-click deployment.
+A client-side replica of [gitingest.com](https://gitingest.com) built with React, TypeScript, and Tailwind CSS. This tool allows you to turn any Git repository into a text digest suitable for LLMs.
 
 ## Features
 
-- ⚛️ React with TypeScript
-- 🎨 Tailwind CSS for styling
-- 📱 Responsive design
-- 🚀 GitHub Pages deployment
-- 🤖 One-click automated deployment
+- ⚛️ **Client-Side Analysis**: Directly interacts with GitHub API from your browser.
+- 🌳 **Recursive Tree View**: Visualizes repository structure.
+- 📄 **Smart Ingestion**: Concatenates code files while filtering binaries and lock files.
+- 📊 **Token Estimation**: Estimates token count for LLMs.
+- 🎨 **Premium Dark Theme**: Designed for a modern developer experience.
+- 🚀 **GitHub Pages Ready**: Deployed instantly to GitHub Pages.
 
+## Usage
 
-## Quick Start
-1. First-time setup:
-   ```
-   npm run init-and-deploy
-   ```
-   You'll be prompted to enter a repository name, or you can provide one directly:
-   ```
-   npm run init-and-deploy -- --repo-name="my-awesome-app"
-   ```
+### Development
 
-2. For subsequent updates, simply run:
-   ```
-   npm run auto-deploy
-   ```
+1.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+2.  **Build for production:**
+    ```bash
+    npm run build
+    ```
 
-Your app will be available at the URL provided in the console output.
+### Deployment
 
-## Development
+To deploy updates to GitHub Pages, you can use the automated script or the manual command:
 
-- Start the development server:
-  ```
-  npm start
-  ```
-- Build for production:
-  ```
-  npm run build
-  ```
-- Deploy changes to GitHub Pages:
-  ```
-  npm run deploy
-  ```
+**Option 1: Automated Script (Recommended)**
+```bash
+npm run auto-deploy
+```
+This script checks dependencies, builds the project, and deploys it.
 
-## Customization
+**Option 2: Manual Deployment**
+```bash
+npm run deploy
+```
+Use this if you just want to run the `gh-pages` command (requires a previous build).
 
-- Modify the components in the `src` directory
-- Customize Tailwind CSS in `tailwind.config.js`
-- Update the page title and metadata in `public/index.html`
+## Tech Stack
 
-## Troubleshooting
-
-If the initialization fails:
-
-- Make sure GitHub CLI is installed: `gh --version`
-- Make sure you're logged in to GitHub: `gh auth status`
-- Check error messages in the console output
+- React 19
+- TypeScript
+- Tailwind CSS
+- Lucide React (Icons)
+- Framer Motion (Animations)
+- GPT Tokenizer
 
 ## License
 
