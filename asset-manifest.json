@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/repo-insights/static/css/main.62e4df4b.css",
-    "main.js": "/repo-insights/static/js/main.1879bb07.js",
+    "main.js": "/repo-insights/static/js/main.6bb13bcb.js",
     "static/js/453.28e78866.chunk.js": "/repo-insights/static/js/453.28e78866.chunk.js",
     "index.html": "/repo-insights/index.html",
     "main.62e4df4b.css.map": "/repo-insights/static/css/main.62e4df4b.css.map",
-    "main.1879bb07.js.map": "/repo-insights/static/js/main.1879bb07.js.map",
+    "main.6bb13bcb.js.map": "/repo-insights/static/js/main.6bb13bcb.js.map",
     "453.28e78866.chunk.js.map": "/repo-insights/static/js/453.28e78866.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62e4df4b.css",
-    "static/js/main.1879bb07.js"
+    "static/js/main.6bb13bcb.js"
   ]
 }
